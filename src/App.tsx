@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const App: React.FC = () => {
-  return <>RT project in progress</>;
+  const [color, setColor] = useState<string>("red");
+  return <div style={{ color: color }}>RT project in progress</div>;
 };
 
 export default App;
