@@ -83,6 +83,10 @@ class Vector {
     this.z = ax * by - ay * bx;
     return this;
   }
+
+  dot(v: Vector) {
+    return this.x * v.x + this.y * v.y + this.z * v.z;
+  }
 }
 
 export { Vector };
