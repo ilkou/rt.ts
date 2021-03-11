@@ -1,4 +1,4 @@
-name: Tests with Jest
+name: Tests
 
 on: [push, pull_request]
 
